@@ -1,0 +1,30 @@
+.collection-section {
+    padding: 24px 20px 96px;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        gap: 77px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__button {
+        width: 168px;
+        height: 54px;
+        gap: 10px;
+        border-radius: 2px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: var(--color-secondary-black);
+        background-color: transparent;
+    }
+}

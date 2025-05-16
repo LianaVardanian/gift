@@ -1,0 +1,35 @@
+.partners-section {
+
+    // &__container {
+    //     // overflow: hidden;
+    // }
+
+    &__slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 40px;
+        height: 40px;
+        background: red;
+        border: none;
+        cursor: pointer;
+
+        &.next {
+            transform: rotate(180deg);
+        }
+    }
+
+}
+
+.swiper-container {
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide {
+    // flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

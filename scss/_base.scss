@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+.section {
+    padding: 48px 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color-primary-dark);
+    white-space: nowrap;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    width: 1288px;
+    margin: 0 auto;
+    padding: 0 40px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+H6,
+p {
+    margin: 0px;
+}
+
+img {
+    object-fit: contain;
+}

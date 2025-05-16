@@ -1,0 +1,15 @@
+@import './base';
+//utils
+@import'./utils/visually-hidden';
+@import'./utils/fonts';
+@import'./utils/variables';
+@import'./utils/texts';
+// Layonts
+@import'./layonts/header-section';
+@import'./layonts/hero-section';
+@import'./layonts/advantages-section';
+@import'./layonts/collection-section';
+@import'./layonts/contact-section';
+@import'./layonts/footer';
+@import'./layonts/partners-section';
+@import'./layonts/delivery-section';

@@ -1,0 +1,109 @@
+.footer {
+    position: relative;
+    background: rgba(210, 226, 220, 0.5);
+    padding: 40px 20px;
+    padding-bottom: 0;
+    font-size: 20px;
+    color: var(--color-secondary-black);
+
+
+    // &__container {
+    //     max-width: 1200px;
+    //     margin: 0 auto;
+    // }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    &__menu {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 8px 40px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    &__link {
+        font-family: 'Roboto Condensed';
+        font-weight: 400;
+    }
+
+    &__address,
+    &__account,
+    &__nav {
+        flex: 1 1 30%;
+    }
+
+    &__address-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__address-menu li {
+        margin-bottom: 5px;
+    }
+
+
+    &__address-info {
+        margin-top: 20px;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    &__address-link {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    &__address-info img {
+        margin: 15px 0;
+        max-width: 150px;
+    }
+
+    &__address-copyright {
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 12px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid var(--color-secondary-black);
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        &__container {
+            flex-direction: column;
+        }
+
+        &__menu {
+            grid-template-columns: repeat(1, auto);
+        }
+    }
+
+    &__info {
+        font-family: 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+    }
+}

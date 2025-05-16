@@ -1,0 +1,14 @@
+.italic-title {
+    font-family: 'Cormorant Garamond';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 64px;
+    color: var(--color-secondary-black);
+    padding-bottom: 78px;
+    display: flex;
+    justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

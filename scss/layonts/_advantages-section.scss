@@ -1,0 +1,22 @@
+.advantages-section {
+    position: relative;
+    padding-bottom: 82px;
+
+    &__content {
+        font-weight: 300;
+        font-size: 24px;
+        color: var(--color-primary-dark);
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 1px solid var(--color-primary-dark);
+        width: 230px;
+    }
+}
